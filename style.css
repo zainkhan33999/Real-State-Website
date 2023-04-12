@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'roboto',sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+    line-height: 1.1;
+    font-size: 1.5rem;
+}
+.container{
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.bg-light{
+    background-color: #eee;
+    color: #333;
+
+}
+.bg-dark{
+    background-color: #333;
+    color: #fff;}
+
+
+.text-center{
+    text-align: center;
+}
+.margin-bottom{
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+.text-primary{
+    color: #93cb52;
+}
+.bg-primary{
+    background-color: #93cb52;
+}
+.l-heading {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+.m-heading{
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+ 
+}
+.lead{
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+.btn{
+    color: #fff;
+    background-color: #93cb52;
+    padding: 1.3rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.btn-dark{
+    background-color: #333;
+    color: #fff;
+}
+.btn-dark:hover{
+    background-color: #444;
+}
+.btn:hover{
+    background-color: #5b8629;
+}
+#navbar{
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+#navbar ul li a{
+    padding: 1.5rem;
+}
+#navbar ul li a:hover{
+    background-color: #93cb52;
+    border-radius: 0.5rem;
+}
+header{
+    background:linear-gradient(rgba(60,50,30,0.5),rgba(51,51,51,0.7)),  
+    url(/img/background.jpg)no-repeat center center/cover;
+    height: 93vh;
+    text-align: center;
+}
+header .header-content{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+#What {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+    padding-bottom: 13rem;
+    padding-top: 2rem;
+}
+    
+#What .boxes{
+    display: flex;
+    text-align: center;
+}
+#What .boxes .box{
+   flex: 1;
+   padding: 2rem;
+}
+#Who{
+    display: flex;
+    height: 60vh;
+    margin: -8rem;
+
+}
+#Who div{
+    flex: 1;
+}
+#Who div:first-child{
+    flex: 2;
+}
+#Who .who-img{
+    background: url("/img/team.jpg") no-repeat center center/cover;
+}
+#Who .who-content{
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+}
+
+#Who .who-content ul li{
+    margin-bottom: 2rem;
+    border: #eee 1px dotted;
+    width: 30rem;
+    padding: 1rem;
+}
+#Who .who-content h1{
+    margin-bottom: 1rem;
+}
+#Who .who-content h3{
+    margin-bottom: 2rem;
+}
+#clients{
+    padding: 6rem;
+    margin-left: 90px;
+}
+#clients .clients{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#clients .clients img{
+    height: 15rem;
+ 
+
+ }
+ #clients .clients div{
+  flex: 1;
+ }
+
+ #contact{
+    height: 70vh; 
+    display: flex;
+    color: #eee;
+   
+ }
+ #contact .contact-form, #contact .contact-map{
+    flex: 1;
+ }
+ #contact .contact-form{
+    padding: 5rem;
+ }
+ #contact .contact-form label,
+ #contact .contact-form input,
+ #contact .contact-form textarea {
+    display: block;
+   
+ }
+ #contact .contact-form input,
+ #contact .contact-form textarea {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 0,5rem;
+    border: none;
+    margin: 1rem;
+ }
+ #contact .contact-map iframe{
+    height: 100%;
+    width: 100%;
+ }
+ #footer{
+    text-align: center;
+    background-color: #333;
+    padding: 2rem;
+    color: #fff;
+ }
+   
+   
+  
+
+
